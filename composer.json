@@ -199,12 +199,12 @@
             "type": "package",
             "package": {
               "name": "islandora_lite/islandora_lite_solr_search",
-              "version": "dev-main",
+              "version": "dev-exported_doris",
               "type": "drupal-module",
               "source": {
                 "url": "https://github.com/digitalutsc/islandora_lite_solr_search.git",
                 "type": "git",
-                "reference":"main"
+                "reference":"exported_doris"
               }
             }
         },
