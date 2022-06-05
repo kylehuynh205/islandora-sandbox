@@ -334,7 +334,7 @@
         "digitalutsc/islandora_group" : "1.2.x-dev",
         "drupal/views_field_view": "^1.0@beta",
         "islandora_lite/islandora_mirador": "dev-drupal_mirador",
-        "islandora_lite/islandora_lite_solr_search": "dev-main",
+        "islandora_lite/islandora_lite_solr_search": "dev-exported_doris",
         "islandora_lite/facets_year_range": "dev-main",
         "islandora_lite/islandora_breadcrumbs": "dev-main",
         "drupal/fontawesome":"^2.23",
