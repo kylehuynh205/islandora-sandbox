@@ -109,6 +109,14 @@ field_settings:
     dependencies:
       config:
         - field.storage.node.field_coordinates
+  field_descendant_of:
+    label: 'Descendant of'
+    datasource_id: 'entity:node'
+    property_path: field_member_of
+    type: integer
+    dependencies:
+      config:
+        - field.storage.node.field_member_of
   field_description:
     label: Description
     datasource_id: 'entity:node'
@@ -146,7 +154,7 @@ field_settings:
     label: 'Member of'
     datasource_id: 'entity:node'
     property_path: field_member_of
-    type: string
+    type: integer
     dependencies:
       config:
         - field.storage.node.field_member_of
@@ -477,6 +485,11 @@ processor_settings:
     weights:
       preprocess_index: -10
   entity_type: {  }
+  hierarchy:
+    weights:
+      preprocess_index: -45
+    fields:
+      field_descendant_of: node-field_member_of
   html_filter:
     weights:
       preprocess_index: -3
